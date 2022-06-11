@@ -2,9 +2,9 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import Layout from "../components/Layout/Layout"
+import Seo from "../components/Seo"
+import * as styles from "../components/Layout/index.module.css"
 
 const links = [
   {
