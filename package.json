@@ -14,6 +14,7 @@
     "lint": "eslint '**/*.{js,jsx,ts,tsx}' --fix",
     "pretty": "prettier '**/*.{js,jsx,ts,tsx}' --write",
     "format": "npm run lint && npm run pretty",
+    "commit": "cz",
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
