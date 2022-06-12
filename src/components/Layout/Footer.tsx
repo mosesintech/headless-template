@@ -1,5 +1,7 @@
 import React from "react"
 
+import FooterMenu from "./Menus/FooterMenu"
+
 const Footer = () => {
   return (
     <>
@@ -9,9 +11,7 @@ const Footer = () => {
           fontSize: `var(--font-sm)`,
         }}
       >
-        © {new Date().getFullYear()} &middot; Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <FooterMenu />
       </footer>
     </>
   )

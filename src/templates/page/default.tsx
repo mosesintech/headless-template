@@ -25,7 +25,6 @@ const DefaultPageTemplate: React.FC<TemplatePageProps> = props => {
             }}
           />
         )}
-        <p>Page</p>
       </Layout>
     </>
   )
