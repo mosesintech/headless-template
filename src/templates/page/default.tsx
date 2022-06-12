@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import { TemplatePageProps } from "../../interfaces"
 import Layout from "../../components/Layout/Layout"
-// import FlexibleContent from "../../components/FlexibleContent"
+import FlexibleContent from "../../components/FlexibleContent"
 
 const DefaultPageTemplate: React.FC<TemplatePageProps> = props => {
   const {
@@ -15,7 +15,7 @@ const DefaultPageTemplate: React.FC<TemplatePageProps> = props => {
   return (
     <>
       <Layout title={title}>
-        {/* {!!template && (
+        {!!template && (
           <FlexibleContent
             modules={template.flexibleContentModules.contentModule}
             data={{
@@ -24,7 +24,7 @@ const DefaultPageTemplate: React.FC<TemplatePageProps> = props => {
               slug,
             }}
           />
-        )} */}
+        )}
         <p>Page</p>
       </Layout>
     </>
@@ -39,11 +39,11 @@ export const FlexibleContentQuery = graphql`
       title
       slug
       uri
-      #   template {
-      #     ... on WpDefaultTemplate {
-      #       ...DefaultTemplateFragment
-      #     }
-      #   }
+        template {
+          ... on WpDefaultTemplate {
+            ...DefaultTemplateFragment
+          }
+        }
     }
   }
 `
