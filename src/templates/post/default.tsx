@@ -21,30 +21,25 @@ export default function DefaultPostTemplate(props: any) {
       <Edges size="lg">
         <h1 children={title} />
         {image && (
-            <GatsbyImage
-                image={image}
-                alt={featuredImage?.node?.altText || ""}
-            />
+          <GatsbyImage image={image} alt={featuredImage?.node?.altText || ""} />
         )}
         {categories && (
-            <p>
-                {categories &&
-                categories.nodes.map(
-                    (cat: { name: string; uri: string }, i: number) => {
-                        return (
-                            <Link
-                                to={cat.uri}
-                                className={`${
-                                    i === 0 ? "" : "ml-[5px]"
-                                }`}
-                                children={cat.name}
-                            />
-                        )
-                    }
-                )}
-            </p>
+          <p>
+            {categories &&
+              categories.nodes.map(
+                (cat: { name: string; uri: string }, i: number) => {
+                  return (
+                    <Link
+                      to={cat.uri}
+                      className={`${i === 0 ? "" : "ml-[5px]"}`}
+                      children={cat.name}
+                    />
+                  )
+                }
+              )}
+          </p>
         )}
-    <div children={Parser(content)} />
+        <div children={Parser(content)} />
       </Edges>
     </Layout>
   )
