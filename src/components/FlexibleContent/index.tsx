@@ -26,28 +26,28 @@ import Banner, { BannerProps } from "./Banner"
 
 interface Components {
   Banner: React.FC<BannerProps>
-//   CallToAction: React.FC<CTAProps>
-//   Carousel: React.FC<CarouselProps>
-//   CompareProducts: React.FC<CompareProductsProps>
-//   DataTable: React.FC<DataTableProps>
-//   Faq: React.FC<FaqProps>
-//   FeatureLinks: React.FC<FeatureLinksProps>
-//   Form: React.FC<FormProps>
-//   Gallery: React.FC<GalleryProps>
-//   Hero: React.FC<HeroProps>
-//   LatestArticles: React.FC<LatestArticlesProps>
-//   LinkBoxes: React.FC<LinkBoxesProps>
-//   List: React.FC<ListProps>
-//   Location: React.FC<LocationProps>
-//   Logos: React.FC<LogosProps>
-//   NavBlock: React.FC<NavBlockProps>
-//   Selection: React.FC<SelectionProps>
-//   SupportTiers: React.FC<SupportTiersProps>
-//   Switch: React.FC<SwitchProps>
-//   TextArea: React.FC<TextAreaProps>
-//   TextBlock: React.FC<TextBlockProps>
-//   TextImage: React.FC<TextImageProps>
-//   Videos: React.FC<VideoProps>
+  //   CallToAction: React.FC<CTAProps>
+  //   Carousel: React.FC<CarouselProps>
+  //   CompareProducts: React.FC<CompareProductsProps>
+  //   DataTable: React.FC<DataTableProps>
+  //   Faq: React.FC<FaqProps>
+  //   FeatureLinks: React.FC<FeatureLinksProps>
+  //   Form: React.FC<FormProps>
+  //   Gallery: React.FC<GalleryProps>
+  //   Hero: React.FC<HeroProps>
+  //   LatestArticles: React.FC<LatestArticlesProps>
+  //   LinkBoxes: React.FC<LinkBoxesProps>
+  //   List: React.FC<ListProps>
+  //   Location: React.FC<LocationProps>
+  //   Logos: React.FC<LogosProps>
+  //   NavBlock: React.FC<NavBlockProps>
+  //   Selection: React.FC<SelectionProps>
+  //   SupportTiers: React.FC<SupportTiersProps>
+  //   Switch: React.FC<SwitchProps>
+  //   TextArea: React.FC<TextAreaProps>
+  //   TextBlock: React.FC<TextBlockProps>
+  //   TextImage: React.FC<TextImageProps>
+  //   Videos: React.FC<VideoProps>
 }
 
 interface Props {
@@ -61,28 +61,28 @@ interface Props {
 
 const components: Components = {
   Banner,
-//   CallToAction,
-//   Carousel,
-//   CompareProducts,
-//   DataTable,
-//   Faq,
-//   FeatureLinks,
-//   Form,
-//   Gallery,
-//   Hero,
-//   LatestArticles,
-//   LinkBoxes,
-//   List,
-//   Location,
-//   Logos,
-//   NavBlock,
-//   Selection,
-//   SupportTiers,
-//   Switch,
-//   TextArea,
-//   TextBlock,
-//   TextImage,
-//   Videos,
+  //   CallToAction,
+  //   Carousel,
+  //   CompareProducts,
+  //   DataTable,
+  //   Faq,
+  //   FeatureLinks,
+  //   Form,
+  //   Gallery,
+  //   Hero,
+  //   LatestArticles,
+  //   LinkBoxes,
+  //   List,
+  //   Location,
+  //   Logos,
+  //   NavBlock,
+  //   Selection,
+  //   SupportTiers,
+  //   Switch,
+  //   TextArea,
+  //   TextBlock,
+  //   TextImage,
+  //   Videos,
 }
 
 const FlexibleContent: React.FC<Props> = props => {

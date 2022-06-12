@@ -54,17 +54,17 @@ export const fragment = graphql`
     }
   }
 
-#   fragment contactBanner on WpTemplate_Contact_Flexiblecontentmodules_ContentModule {
-#     ... on WpTemplate_Contact_Flexiblecontentmodules_ContentModule_Banner {
-#       fieldGroupName
-#       bannerTitle
-#       bannerContent
-#       bannerBackgroundColor
-#       bannerLink {
-#         target
-#         title
-#         url
-#       }
-#     }
-#   }
+  #   fragment contactBanner on WpTemplate_Contact_Flexiblecontentmodules_ContentModule {
+  #     ... on WpTemplate_Contact_Flexiblecontentmodules_ContentModule_Banner {
+  #       fieldGroupName
+  #       bannerTitle
+  #       bannerContent
+  #       bannerBackgroundColor
+  #       bannerLink {
+  #         target
+  #         title
+  #         url
+  #       }
+  #     }
+  #   }
 `
