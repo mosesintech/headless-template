@@ -39,11 +39,11 @@ export const FlexibleContentQuery = graphql`
       title
       slug
       uri
-    #   template {
-    #     ... on WpDefaultTemplate {
-    #       ...DefaultTemplateFragment
-    #     }
-    #   }
+      #   template {
+      #     ... on WpDefaultTemplate {
+      #       ...DefaultTemplateFragment
+      #     }
+      #   }
     }
   }
 `
