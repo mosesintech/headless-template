@@ -1,7 +1,7 @@
 import React from "react"
 
 import Banner, { BannerProps } from "./Banner"
-// import CallToAction, { CTAProps } from "./CallToAction"
+import CallToAction, { CTAProps } from "./CallToAction"
 // import Carousel, { CarouselProps } from "./Carousel"
 // import CompareProducts, { CompareProductsProps } from "./CompareProducts"
 // import DataTable, { DataTableProps } from "./DataTable"
@@ -26,7 +26,7 @@ import Banner, { BannerProps } from "./Banner"
 
 interface Components {
   Banner: React.FC<BannerProps>
-  //   CallToAction: React.FC<CTAProps>
+  CallToAction: React.FC<CTAProps>
   //   Carousel: React.FC<CarouselProps>
   //   CompareProducts: React.FC<CompareProductsProps>
   //   DataTable: React.FC<DataTableProps>
@@ -61,7 +61,7 @@ interface Props {
 
 const components: Components = {
   Banner,
-  //   CallToAction,
+  CallToAction,
   //   Carousel,
   //   CompareProducts,
   //   DataTable,
