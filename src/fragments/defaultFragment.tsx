@@ -7,7 +7,7 @@ export const defaultFragment = graphql`
       contentModule {
         ...Banner
         ...CallToAction
-        # ...Carousel
+        ...Carousel
         # ...CompareProducts
         # ...DataTable
         # ...Faq

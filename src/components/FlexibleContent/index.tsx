@@ -2,7 +2,7 @@ import React from "react"
 
 import Banner, { BannerProps } from "./Banner"
 import CallToAction, { CTAProps } from "./CallToAction"
-// import Carousel, { CarouselProps } from "./Carousel"
+import Carousel, { CarouselProps } from "./Carousel"
 // import CompareProducts, { CompareProductsProps } from "./CompareProducts"
 // import DataTable, { DataTableProps } from "./DataTable"
 // import Faq, { FaqProps } from "./Faq"
@@ -27,7 +27,7 @@ import CallToAction, { CTAProps } from "./CallToAction"
 interface Components {
   Banner: React.FC<BannerProps>
   CallToAction: React.FC<CTAProps>
-  //   Carousel: React.FC<CarouselProps>
+  Carousel: React.FC<CarouselProps>
   //   CompareProducts: React.FC<CompareProductsProps>
   //   DataTable: React.FC<DataTableProps>
   //   Faq: React.FC<FaqProps>
@@ -62,7 +62,7 @@ interface Props {
 const components: Components = {
   Banner,
   CallToAction,
-  //   Carousel,
+  Carousel,
   //   CompareProducts,
   //   DataTable,
   //   Faq,
