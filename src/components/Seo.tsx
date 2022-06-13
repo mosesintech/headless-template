@@ -2,23 +2,26 @@ import * as React from "react"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+function Seo(props: any) {
+  const { description, lang, meta, title } = props
+  const { allWp } = useStaticQuery(
     graphql`
       query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
+        allWp {
+          nodes {
+            generalSettings {
+              title
+              description
+            }
           }
         }
       }
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription =
+    description || allWp?.nodes[0]?.generalSettings?.description
+  const defaultTitle = allWp?.nodes[0]?.generalSettings?.title
 
   return (
     <Helmet
@@ -26,7 +29,7 @@ function Seo({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s / ${defaultTitle}` : null}
+      titleTemplate={`%s | ${defaultTitle}`}
       meta={[
         {
           name: `description`,
@@ -48,10 +51,10 @@ function Seo({ description, lang, meta, title }) {
           name: `twitter:card`,
           content: `summary`,
         },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
+        // {
+        //   name: `twitter:creator`,
+        //   content: site.siteMetadata?.author || ``,
+        // },
         {
           name: `twitter:title`,
           content: title,
