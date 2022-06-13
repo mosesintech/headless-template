@@ -4,7 +4,7 @@ import Banner, { BannerProps } from "./Banner"
 import CallToAction, { CTAProps } from "./CallToAction"
 import Carousel, { CarouselProps } from "./Carousel"
 import DataTable, { DataTableProps } from "./DataTable"
-// import Faq, { FaqProps } from "./Faq"
+import Faq, { FaqProps } from "./Faq"
 // import FeatureLinks, { FeatureLinksProps } from "./FeatureLinks"
 // import Form, { FormProps } from "./Form"
 // import Gallery, { GalleryProps } from "./Gallery"
@@ -28,7 +28,7 @@ interface Components {
   CallToAction: React.FC<CTAProps>
   Carousel: React.FC<CarouselProps>
   DataTable: React.FC<DataTableProps>
-  //   Faq: React.FC<FaqProps>
+  Faq: React.FC<FaqProps>
   //   FeatureLinks: React.FC<FeatureLinksProps>
   //   Form: React.FC<FormProps>
   //   Gallery: React.FC<GalleryProps>
@@ -62,7 +62,7 @@ const components: Components = {
   CallToAction,
   Carousel,
   DataTable,
-  //   Faq,
+  Faq,
   //   FeatureLinks,
   //   Form,
   //   Gallery,
