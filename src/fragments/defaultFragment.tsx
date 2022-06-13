@@ -8,8 +8,7 @@ export const defaultFragment = graphql`
         ...Banner
         ...CallToAction
         ...Carousel
-        # ...CompareProducts
-        # ...DataTable
+        ...DataTable
         # ...Faq
         # ...FeatureLinks
         # ...Form

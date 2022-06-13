@@ -1117,11 +1117,6 @@
                 {
                     "param": "page_template",
                     "operator": "!=",
-                    "value": "CareerPageTemplate.php"
-                },
-                {
-                    "param": "page_template",
-                    "operator": "!=",
                     "value": "ContactPageTemplate.php"
                 }
             ]
@@ -1352,127 +1347,6 @@
         "description": "",
         "show_in_graphql": 1,
         "graphql_field_name": "moduleCarousel",
-        "map_graphql_types_from_location_rules": 0,
-        "graphql_types": ""
-    },
-    {
-        "key": "group_61da6f143424e",
-        "title": "Module: Compare Products",
-        "fields": [
-            {
-                "key": "field_61da6f251585e",
-                "label": "Compare Products Title",
-                "name": "compare_products_title",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "show_in_graphql": 1,
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            },
-            {
-                "key": "field_61da7d3d1faff",
-                "label": "Switch",
-                "name": "switch",
-                "type": "clone",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "show_in_graphql": 1,
-                "clone": [
-                    "group_61da7cf38ee59"
-                ],
-                "display": "seamless",
-                "layout": "block",
-                "prefix_label": 0,
-                "prefix_name": 0
-            },
-            {
-                "key": "field_61da7ab338f2e",
-                "label": "Selection",
-                "name": "selection",
-                "type": "clone",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "show_in_graphql": 1,
-                "clone": [
-                    "group_61da79b085975"
-                ],
-                "display": "seamless",
-                "layout": "block",
-                "prefix_label": 0,
-                "prefix_name": 0
-            },
-            {
-                "key": "field_61da84ad948f0",
-                "label": "Compare Products Background Color",
-                "name": "compare_products_background_color",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "show_in_graphql": 1,
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "page_template",
-                    "operator": "!=",
-                    "value": "default"
-                },
-                {
-                    "param": "page_template",
-                    "operator": "!=",
-                    "value": "CareerPageTemplate.php"
-                },
-                {
-                    "param": "page_template",
-                    "operator": "!=",
-                    "value": "ContactPageTemplate.php"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": "",
-        "show_in_graphql": 1,
-        "graphql_field_name": "moduleCompareProducts",
         "map_graphql_types_from_location_rules": 0,
         "graphql_types": ""
     },
