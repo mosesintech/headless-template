@@ -11,7 +11,7 @@ export const defaultFragment = graphql`
         ...DataTable
         ...Faq
         ...FeatureLinks
-        # ...Form
+        ...Form
         # ...Gallery
         # ...Hero
         # ...LatestArticles
