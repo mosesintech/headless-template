@@ -7,7 +7,7 @@ import DataTable, { DataTableProps } from "./DataTable"
 import Faq, { FaqProps } from "./Faq"
 import FeatureLinks, { FeatureLinksProps } from "./FeatureLinks"
 import Form, { FormProps } from "./Form"
-// import Gallery, { GalleryProps } from "./Gallery"
+import Gallery, { GalleryProps } from "./Gallery"
 // import Hero, { HeroProps } from "./Hero"
 // import LatestArticles, { LatestArticlesProps } from "./LatestArticles"
 // import LinkBoxes, { LinkBoxesProps } from "./LinkBoxes"
@@ -31,7 +31,7 @@ interface Components {
   Faq: React.FC<FaqProps>
   FeatureLinks: React.FC<FeatureLinksProps>
   Form: React.FC<FormProps>
-  //   Gallery: React.FC<GalleryProps>
+  Gallery: React.FC<GalleryProps>
   //   Hero: React.FC<HeroProps>
   //   LatestArticles: React.FC<LatestArticlesProps>
   //   LinkBoxes: React.FC<LinkBoxesProps>
@@ -65,7 +65,7 @@ const components: Components = {
   Faq,
   FeatureLinks,
   Form,
-  //   Gallery,
+  Gallery,
   //   Hero,
   //   LatestArticles,
   //   LinkBoxes,

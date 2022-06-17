@@ -12,7 +12,7 @@ export const defaultFragment = graphql`
         ...Faq
         ...FeatureLinks
         ...Form
-        # ...Gallery
+        ...Gallery
         # ...Hero
         # ...LatestArticles
         # ...LinkBoxes
