@@ -18,7 +18,7 @@ import NavBlock, { NavBlockProps } from "./NavBlock"
 import SupportTiers, { SupportTiersProps } from "./SupportTiers"
 import TextArea, { TextAreaProps } from "./TextArea"
 import TextBlock, { TextBlockProps } from "./TextBlock"
-// import TextImage, { TextImageProps } from "./TextImage"
+import TextImage, { TextImageProps } from "./TextImage"
 // import Videos, { VideoProps } from "./Videos"
 
 interface Components {
@@ -40,7 +40,7 @@ interface Components {
   SupportTiers: React.FC<SupportTiersProps>
   TextArea: React.FC<TextAreaProps>
   TextBlock: React.FC<TextBlockProps>
-  //   TextImage: React.FC<TextImageProps>
+  TextImage: React.FC<TextImageProps>
   //   Videos: React.FC<VideoProps>
 }
 
@@ -72,7 +72,7 @@ const components: Components = {
   SupportTiers,
   TextArea,
   TextBlock,
-  //   TextImage,
+  TextImage,
   //   Videos,
 }
 

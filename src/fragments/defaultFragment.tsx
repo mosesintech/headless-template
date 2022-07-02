@@ -23,7 +23,7 @@ export const defaultFragment = graphql`
         ...SupportTiers
         ...TextArea
         ...TextBlock
-        # ...TextImage
+        ...TextImage
         # ...Videos
       }
     }
