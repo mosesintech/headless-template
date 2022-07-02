@@ -10,7 +10,7 @@ import Form, { FormProps } from "./Form"
 import Gallery, { GalleryProps } from "./Gallery"
 import Hero, { HeroProps } from "./Hero"
 import LatestArticles, { LatestArticlesProps } from "./LatestArticles"
-// import LinkBoxes, { LinkBoxesProps } from "./LinkBoxes"
+import LinkBoxes, { LinkBoxesProps } from "./LinkBoxes"
 // import List, { ListProps } from "./List"
 // import Location, { LocationProps } from "./Location"
 // import Logos, { LogosProps } from "./Logos"
@@ -34,7 +34,7 @@ interface Components {
   Gallery: React.FC<GalleryProps>
   Hero: React.FC<HeroProps>
   LatestArticles: React.FC<LatestArticlesProps>
-  //   LinkBoxes: React.FC<LinkBoxesProps>
+  LinkBoxes: React.FC<LinkBoxesProps>
   //   List: React.FC<ListProps>
   //   Location: React.FC<LocationProps>
   //   Logos: React.FC<LogosProps>
@@ -68,7 +68,7 @@ const components: Components = {
   Gallery,
   Hero,
   LatestArticles,
-  //   LinkBoxes,
+  LinkBoxes,
   //   List,
   //   Location,
   //   Logos,
