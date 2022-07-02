@@ -16,7 +16,7 @@ export const defaultFragment = graphql`
         ...Hero
         ...LatestArticles
         ...LinkBoxes
-        # ...List
+        ...List
         # ...Logos
         # ...NavBlock
         # ...Selection
