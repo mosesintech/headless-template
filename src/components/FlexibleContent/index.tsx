@@ -14,7 +14,7 @@ import LinkBoxes, { LinkBoxesProps } from "./LinkBoxes"
 import List, { ListProps } from "./List"
 import Location, { LocationProps } from "./Location"
 import Logos, { LogosProps } from "./Logos"
-// import NavBlock, { NavBlockProps } from "./NavBlock"
+import NavBlock, { NavBlockProps } from "./NavBlock"
 // import Selection, { SelectionProps } from "./Selection"
 // import SupportTiers, { SupportTiersProps } from "./SupportTiers"
 // import Switch, { SwitchProps } from "./Switch"
@@ -38,7 +38,7 @@ interface Components {
   List: React.FC<ListProps>
   Location: React.FC<LocationProps>
   Logos: React.FC<LogosProps>
-  //   NavBlock: React.FC<NavBlockProps>
+  NavBlock: React.FC<NavBlockProps>
   //   Selection: React.FC<SelectionProps>
   //   SupportTiers: React.FC<SupportTiersProps>
   //   Switch: React.FC<SwitchProps>
@@ -72,7 +72,7 @@ const components: Components = {
   List,
   Location,
   Logos,
-  //   NavBlock,
+  NavBlock,
   //   Selection,
   //   SupportTiers,
   //   Switch,

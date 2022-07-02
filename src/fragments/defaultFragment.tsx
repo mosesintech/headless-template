@@ -19,7 +19,7 @@ export const defaultFragment = graphql`
         ...List
         ...Location
         ...Logos
-        # ...NavBlock
+        ...NavBlock
         # ...Selection
         # ...SupportTiers
         # ...Switch
