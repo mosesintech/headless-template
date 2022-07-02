@@ -19,7 +19,7 @@ import SupportTiers, { SupportTiersProps } from "./SupportTiers"
 import TextArea, { TextAreaProps } from "./TextArea"
 import TextBlock, { TextBlockProps } from "./TextBlock"
 import TextImage, { TextImageProps } from "./TextImage"
-// import Videos, { VideoProps } from "./Videos"
+import Videos, { VideoProps } from "./Videos"
 
 interface Components {
   Banner: React.FC<BannerProps>
@@ -41,7 +41,7 @@ interface Components {
   TextArea: React.FC<TextAreaProps>
   TextBlock: React.FC<TextBlockProps>
   TextImage: React.FC<TextImageProps>
-  //   Videos: React.FC<VideoProps>
+  Videos: React.FC<VideoProps>
 }
 
 interface Props {
@@ -73,7 +73,7 @@ const components: Components = {
   TextArea,
   TextBlock,
   TextImage,
-  //   Videos,
+  Videos,
 }
 
 const FlexibleContent: React.FC<Props> = props => {
