@@ -15,9 +15,7 @@ import List, { ListProps } from "./List"
 import Location, { LocationProps } from "./Location"
 import Logos, { LogosProps } from "./Logos"
 import NavBlock, { NavBlockProps } from "./NavBlock"
-// import Selection, { SelectionProps } from "./Selection"
-// import SupportTiers, { SupportTiersProps } from "./SupportTiers"
-// import Switch, { SwitchProps } from "./Switch"
+import SupportTiers, { SupportTiersProps } from "./SupportTiers"
 // import TextArea, { TextAreaProps } from "./TextArea"
 // import TextBlock, { TextBlockProps } from "./TextBlock"
 // import TextImage, { TextImageProps } from "./TextImage"
@@ -39,9 +37,7 @@ interface Components {
   Location: React.FC<LocationProps>
   Logos: React.FC<LogosProps>
   NavBlock: React.FC<NavBlockProps>
-  //   Selection: React.FC<SelectionProps>
-  //   SupportTiers: React.FC<SupportTiersProps>
-  //   Switch: React.FC<SwitchProps>
+  SupportTiers: React.FC<SupportTiersProps>
   //   TextArea: React.FC<TextAreaProps>
   //   TextBlock: React.FC<TextBlockProps>
   //   TextImage: React.FC<TextImageProps>
@@ -73,9 +69,7 @@ const components: Components = {
   Location,
   Logos,
   NavBlock,
-  //   Selection,
-  //   SupportTiers,
-  //   Switch,
+  SupportTiers,
   //   TextArea,
   //   TextBlock,
   //   TextImage,
