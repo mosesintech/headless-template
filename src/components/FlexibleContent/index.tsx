@@ -16,7 +16,7 @@ import Location, { LocationProps } from "./Location"
 import Logos, { LogosProps } from "./Logos"
 import NavBlock, { NavBlockProps } from "./NavBlock"
 import SupportTiers, { SupportTiersProps } from "./SupportTiers"
-// import TextArea, { TextAreaProps } from "./TextArea"
+import TextArea, { TextAreaProps } from "./TextArea"
 // import TextBlock, { TextBlockProps } from "./TextBlock"
 // import TextImage, { TextImageProps } from "./TextImage"
 // import Videos, { VideoProps } from "./Videos"
@@ -38,7 +38,7 @@ interface Components {
   Logos: React.FC<LogosProps>
   NavBlock: React.FC<NavBlockProps>
   SupportTiers: React.FC<SupportTiersProps>
-  //   TextArea: React.FC<TextAreaProps>
+  TextArea: React.FC<TextAreaProps>
   //   TextBlock: React.FC<TextBlockProps>
   //   TextImage: React.FC<TextImageProps>
   //   Videos: React.FC<VideoProps>
@@ -70,7 +70,7 @@ const components: Components = {
   Logos,
   NavBlock,
   SupportTiers,
-  //   TextArea,
+  TextArea,
   //   TextBlock,
   //   TextImage,
   //   Videos,

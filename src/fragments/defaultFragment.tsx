@@ -21,8 +21,7 @@ export const defaultFragment = graphql`
         ...Logos
         ...NavBlock
         ...SupportTiers
-        # ...Switch
-        # ...TextArea
+        ...TextArea
         # ...TextBlock
         # ...TextImage
         # ...Videos
